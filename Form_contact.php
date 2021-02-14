@@ -1,0 +1,127 @@
+<?php
+
+if(isset($_POST['envoyer'])) {
+
+	$destinataire = "victor.nardel@gmail.com";
+	$nom = htmlspecialchars($_POST['nom']);
+	$tel = htmlspecialchars($_POST['tel']);
+	$mail = htmlspecialchars($_POST['mail']);
+	$message = htmlspecialchars($_POST['message']);
+
+	if (!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['tel'])) {
+		if(filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+
+			mail($destinataire, $nom, $tel, $mail, $message);
+
+			$msg = "Votre message a bien été envoyé";
+		} else {
+			$erreur = "L'adresse mail n'est pas valide";
+		}
+	} else {
+		$erreur = "Veuiller remplir tous les champs";
+	}
+}
+
+?>
+
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<link rel="shortcut icon" href="img/Logo.jpg">
+	</head>
+	<body>
+		<div class="corp_page">
+			<nav class="nav">
+				<a href="index.html" class="btn-nav">Accueil</a>
+				<a href="Parcours.html" class="btn-nav">BTS SIO</a>
+				<a href="page_PPE.html" class="btn-nav">Projets</a>
+				<a href="page_stages.html" class="btn-nav">Stages</a>
+				<a href="page_CV.html" class="btn-nav">CV</a>
+				<a href="Form_contact.php" class="btn-nav-contact">Contact</a>
+				<i class="fas fa-bars"></i>
+			</nav>
+			<div class="menu navi">
+				<div class="block_croix">
+					<i class="fas fa-times"></i>
+				</div>
+				<h1>Menu</h1>
+				<a href="index.html">Accueil</a>
+				<a href="Parcours.html">BTS SIO</a>
+				<a href="page_PPE.html">Projets</a>
+				<a href="page_stages.html">Stages</a>
+				<a href="page_CV.html">CV</a>
+				<a href="#top">Contact</a>
+			</div>
+			<div class="img_fond" id="#top">
+				<!-- <div class="title">
+					<h1 class="name_title">Victor Nardella</h1>
+				</div> -->
+				<div class="block-logo">
+					<div class="logo-linkdin"><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank"><img src="img/logo_linkdin.png" alt="Linkdin" width="60" height="60"></a></div>
+					<div class="logo-fb"><a href="https://www.facebook.com/victor.nardella" target="_blank"><img src="img/logo_fb.png" alt="Facebook" width="45" height="45"></a></div>
+				</div>
+				<div class="bg_titre_page">
+					<div class="titre_page">
+						<h1>Nardella Victor</h1>
+						<h2>Bienvenue sur mon Portfolio<br><span class="présentation">Développeur Full Stack<span></h2>
+					</div>
+				</div>
+			</div>
+			<main>
+				<div class="content_block">
+					<div class="content-form">
+						<h2 class="h2form">Entrer en contact avec moi :</h2>
+				        <form method="post">
+				        	<div class="block_form">
+			            		<h3 class="form_text">Votre nom :</h3>
+			            		<input type="text" name="nom" placeholder="Nom" class="form_info" value="<?php if(isset($nom)) { echo $nom; } ?>">
+			            		<h3 class="form_text">Votre E-mail :</h3>
+			            		<input type="email" name="mail" placeholder="Adresse e-mail" class="form_info" value="<?php if(isset($mail)) { echo $mail; } ?>">
+			            		<h3 class="form_text">Votre téléphone :</h3>
+			            		<input type="tel" name="tel" placeholder="Ex : 07 83 87 52 55" class="form_info" value="<?php if(isset($tel)) { echo $tel; } ?>">
+		            			<h3 class="form_text">Message (facultatif) :</h3>
+			            		<textarea type="text" name="message" class="form_message" value="<?php if(isset($message)) { echo $message; } ?>"></textarea>
+			            		<br>
+			            		<input type="submit" name="envoyer" value="Envoyer" />
+			            	</div>
+				        </form>
+				        <br>
+		                <div class="msg_reponse">
+				            <?php
+				            if(isset($msg)) {
+				               echo '<font color="green">'.$msg."</font>";
+				            }
+				            if(isset($erreur)) {
+				               echo '<font color="red">'.$erreur."</font>";
+				            }
+				            ?>
+			         	</div>
+					</div>
+					<p class="ps">(Vous pouvez aussi entrer en contact avec moi à l'aide de mes coordonnés en bas de page)</p>
+				</div>
+			</main>
+		</div>
+		<footer>
+			<div class="pied_page">
+				<div class="footer-contact">
+					<h2>Me contacter</h2><br>
+					<p>Envoyer moi un e-mail ou appeler moi :</p><br>
+					<p>E-mail :
+						<span class="footer-text"><a href="mailto:victor.nardel@gmail.com" class="lien_mail">victor.nardel@gmail.com</a></span><br><br>
+					</p>
+					<p>Téléphone :<br><br>
+						<span class="footer-text">(+33)7.81.70.56.27</span>
+					</p>
+				</div>
+				<div class="copyright" id="copyright">
+					Copyright &copy; Nardella Victor - 2020 - Tous Droits Réservés
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="JS/app.js"></script>
+	<script src="https://kit.fontawesome.com/27b795312d.js" crossorigin="anonymous"></script>
+</html>
