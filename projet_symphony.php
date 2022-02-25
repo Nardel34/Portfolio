@@ -42,7 +42,7 @@
                     2022<br><br>
                     Cabinet Origami<br><br>
                     Application Web<br><br>
-                    Symphony, Jquery, Ajax<br><br><br>
+                    Symfony, Jquery, Ajax<br><br><br>
                     <a href="http://origamicloud.herokuapp.com/">origamicloud.herokuapp.com</a><br><br>
                     Non disponible
                 </p>
