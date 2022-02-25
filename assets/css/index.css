@@ -1,0 +1,57 @@
+/* -------------------------------page index section info perso-------------------------- */
+
+.main_index {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+}
+
+.main_index img {
+    width: 280px;
+    height: 260px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 100px;
+    box-shadow: 0 0 10px #7A7A7A;
+}
+
+.info_pro_perso {
+    width: 60%;
+    margin-top: 50px;
+}
+
+.info_pro_perso h1 {
+    padding: 0px 0px 30px 30px;
+    font-size: 1.9em;
+}
+
+.info_pro_perso h2 {
+    font-size: 1.3em;
+}
+
+.info_pro_perso .line {
+    height: 1px;
+    width: 60%;
+    margin: 50px auto;
+    background-color: #B1B1B1;
+}
+
+@media (max-width: 900px) {
+    .main_index {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 90%;
+    }
+    .info_pro_perso {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .info_pro_perso h1 {
+        padding-left: 0;
+        font-size: 1.7em;
+    }
+}

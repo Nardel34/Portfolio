@@ -1,0 +1,109 @@
+/* ---------------------------------------page contact------------------------------------- */
+
+.main_contact h1 {
+    margin-top: 50px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.main_contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_contact h2 {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.line_contact {
+    width: 20%;
+    height: 1px;
+    background-color: grey;
+    margin: 10px auto 30px auto;
+}
+
+.form_contact {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: auto;
+    align-items: center;
+}
+
+.form_contact div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_contact div input {
+    font-size: 1.1em;
+    margin: 20px 0px;
+    width: 250px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.form_contact textarea {
+    width: 350px;
+    height: 283px;
+    padding: 20px;
+    resize: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form_contact div input:focus {
+    font-size: 0.9;
+    width: 280px;
+}
+
+.form_contact div input:focus,
+textarea:focus {
+    border: 1px solid black;
+    box-shadow: 0 0 10px #7A7A7A;
+    outline-offset: 0px;
+    outline: none;
+    transition-duration: 0.5s;
+}
+
+.submit {
+    background-color: var(--footer_color);
+    font-size: 1.05em;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #3C3B3B;
+    transition-duration: 0.5s;
+}
+
+form p {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .form_contact {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .form_contact textarea {
+        margin: 20px 0;
+        width: 300px;
+    }
+    .line_contact {
+        width: 40%;
+    }
+}

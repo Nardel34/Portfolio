@@ -1,0 +1,26 @@
+/* ----------------------------------------page CV--------------------------------- */
+
+.main_cv {
+    text-align: center;
+}
+
+.main_cv a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_cv a:hover {
+    text-decoration: underline;
+}
+
+.main_cv img {
+    margin: 50px auto 50px auto;
+    width: 40%;
+    box-shadow: 0 0 10px #7A7A7A;
+}
+
+@media (max-width: 1100px) {
+    .main_cv img {
+        width: 70%;
+    }
+}
