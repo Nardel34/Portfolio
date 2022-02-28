@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['envoyer'])) {
 
-    $destinataire = "mail.portfolio.me@gmail.com";
+    $destinataire = "victor.nardel@gmail.com";
     $nom = htmlspecialchars($_POST['nom']);
     $prenom = htmlspecialchars($_POST['prenom']);
     $email = htmlspecialchars($_POST['email']);

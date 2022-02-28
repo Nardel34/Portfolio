@@ -1,6 +1,7 @@
 <?php
-include 'assets/php/sendmail.php';
+include "assets/php/sendmail.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -26,7 +27,7 @@ include 'assets/php/sendmail.php';
             <h2>Veuillez remplir le formulaire</h2>
             <div class="line_contact"></div>
         </section>
-        <form method="post" id="IDform">
+        <form method="POST" id="demo-form" action="">
             <section class="form_contact">
                 <div>
                     <input type="text" name="nom" placeholder="Nom" value="<?php if (isset($nom)) echo $nom; ?>">
@@ -36,7 +37,7 @@ include 'assets/php/sendmail.php';
                 </div>
                 <textarea name="message" placeholder="Message"><?php if (isset($message)) echo $message; ?></textarea>
             </section>
-            <button type="submit" class="g-recaptcha submit" data-sitekey="6LcgwqYeAAAAAPwON_poX7cRt_geTdAPMuCMXhoB" data-callback='onSubmit' data-action='submit'>Envoyer</button>
+            <button type="submit" class="g-recaptcha submit" data-sitekey="6LcgwqYeAAAAAPwON_poX7cRt_geTdAPMuCMXhoB" data-callback='onSubmit' data-action='submit' name="envoyer">Envoyer</button>
             <p>
                 <?php
                 if (isset($msg)) echo $msg;
@@ -47,13 +48,13 @@ include 'assets/php/sendmail.php';
     </main>
     <?php include 'assets/php/footer.php' ?>
 
+
     <script>
         function onSubmit(token) {
-            document.getElementById("IDform").submit();
+            document.getElementById("demo-form").submit();
         }
     </script>
     <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
-
 
 </html>
