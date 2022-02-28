@@ -41,10 +41,9 @@ if (isset($_POST['envoyer'])) {
             $response = curl_exec($ch);
             curl_close($ch);
 
-
             $response = json_decode($response, true);
             if (isset($response['success']) && $response['success'] == true) {
-                mail($destinataire, "Contact Portfolio", $message_mail);
+                mail($destinataire, "Contact Portfolio", $message_mail, 'noreply@victor-nardella.fr');
                 $msg = "Votre message a bien été envoyé";
             } else {
                 $err = "Le message ne peut pas être envoyé<br>Veuillez contacter l'administrateur";
