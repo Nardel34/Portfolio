@@ -27,7 +27,7 @@ include "assets/php/sendmail.php";
             <h2>Veuillez remplir le formulaire</h2>
             <div class="line_contact"></div>
         </section>
-        <form method="POST" id="demo-form" action="assets/php/sendmail.php">
+        <form method="POST" id="demo-form">
             <section class="form_contact">
                 <div>
                     <input type="text" name="nom" placeholder="Nom" value="<?php if (isset($nom)) echo $nom; ?>">
@@ -37,7 +37,8 @@ include "assets/php/sendmail.php";
                 </div>
                 <textarea name="message" placeholder="Message"><?php if (isset($message)) echo $message; ?></textarea>
             </section>
-            <button type="submit" class="submit" data-sitekey="6LcgwqYeAAAAAPwON_poX7cRt_geTdAPMuCMXhoB" data-callback='onSubmit' data-action='submit' name="envoyer">Envoyer</button>
+            <div class="g-recaptcha" data-sitekey="6LduKqceAAAAAHsi5AlqGsZTd1iD4ezPOrrv8saZ"></div>
+            <input type="submit" class="submit" name="envoyer" value="Envoyer">
             <p>
                 <?php
                 if (isset($msg)) echo $msg;
@@ -47,14 +48,7 @@ include "assets/php/sendmail.php";
         </form>
     </main>
     <?php include 'assets/php/footer.php' ?>
-
-
-    <script>
-        function onSubmit(token) {
-            document.getElementById("demo-form").submit();
-        }
-    </script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 
 </html>
