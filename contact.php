@@ -36,7 +36,7 @@ include 'assets/php/sendmail.php';
                 </div>
                 <textarea name="message" placeholder="Message"><?php if (isset($message)) echo $message; ?></textarea>
             </section>
-            <input type="submit" class="submit" name="envoyer" value="Envoyer">
+            <button type="submit" class="g-recaptcha submit" data-sitekey="6LcgwqYeAAAAAPwON_poX7cRt_geTdAPMuCMXhoB" data-callback='onSubmit' data-action='submit'>Envoyer</button>
             <p>
                 <?php
                 if (isset($msg)) echo $msg;
@@ -46,6 +46,12 @@ include 'assets/php/sendmail.php';
         </form>
     </main>
     <?php include 'assets/php/footer.php' ?>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+        }
+    </script>
 </body>
 
 
