@@ -27,7 +27,7 @@ include "assets/php/sendmail.php";
             <h2>Veuillez remplir le formulaire</h2>
             <div class="line_contact"></div>
         </section>
-        <form method="POST" id="demo-form" action="">
+        <form method="POST" id="demo-form" action="assets/php/sendmail.php">
             <section class="form_contact">
                 <div>
                     <input type="text" name="nom" placeholder="Nom" value="<?php if (isset($nom)) echo $nom; ?>">
@@ -37,7 +37,7 @@ include "assets/php/sendmail.php";
                 </div>
                 <textarea name="message" placeholder="Message"><?php if (isset($message)) echo $message; ?></textarea>
             </section>
-            <button type="submit" class="g-recaptcha submit" data-sitekey="6LcgwqYeAAAAAPwON_poX7cRt_geTdAPMuCMXhoB" data-callback='onSubmit' data-action='submit' name="envoyer">Envoyer</button>
+            <button type="submit" class="submit" data-sitekey="6LcgwqYeAAAAAPwON_poX7cRt_geTdAPMuCMXhoB" data-callback='onSubmit' data-action='submit' name="envoyer">Envoyer</button>
             <p>
                 <?php
                 if (isset($msg)) echo $msg;
