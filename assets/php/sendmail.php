@@ -12,22 +12,25 @@ if (isset($_POST['envoyer'])) {
     $email = htmlspecialchars($_POST['email']);
     $tel = htmlspecialchars($_POST['tel']);
     $message = htmlspecialchars($_POST['message']);
-    $message_mail = "Nom : " . $nom . "
-    
-    Prénom : " . $prenom . "
-    
-    Email : " . $email . "
-    
-    Téléphone : " . $tel . "
-    
-    Message : " . $message;
+    $header = [
+        'From' => "noreply@victor-nardella.fr",
+        'content-type' => "text/html; charset=utf-8"
+    ];
+    $message_mail =
+        "Nom : " . $nom . "<br><br>
+        Prénom : " . $prenom . "<br><br>
+        Email : " . $email . "<br><br>
+        Téléphone : " . $tel . "<br><br>
+        Message : " . $message;
 
     if (!empty($_POST['nom']) and !empty($_POST['prenom']) and !empty($_POST['email']) and !empty($_POST['message'])) {
 
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
+            // Doc officiel de google mais renvoie toujours "false"
             // $recaptcha = new \ReCaptcha\ReCaptcha("6LduKqceAAAAADXqW8uRSyWbuER9c3YDW-X69aIL");
             // $response = $recaptcha->setExpectedHostname('recaptcha-demo.appspot.com')->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
+
             $post = [
                 'secret' => "6LduKqceAAAAADXqW8uRSyWbuER9c3YDW-X69aIL",
                 'response' => $_POST['g-recaptcha-response'],
@@ -43,7 +46,7 @@ if (isset($_POST['envoyer'])) {
 
             $response = json_decode($response, true);
             if (isset($response['success']) && $response['success'] == true) {
-                mail($destinataire, "Contact Portfolio", $message_mail, 'noreply@victor-nardella.fr');
+                mail($destinataire, "Contact Portfolio", $message_mail, $header);
                 $msg = "Votre message a bien été envoyé";
             } else {
                 $err = "Le message ne peut pas être envoyé<br>Veuillez contacter l'administrateur";
