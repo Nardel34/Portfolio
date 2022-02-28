@@ -26,7 +26,7 @@ include 'assets/php/sendmail.php';
             <h2>Veuillez remplir le formulaire</h2>
             <div class="line_contact"></div>
         </section>
-        <form method="post">
+        <form method="post" id="IDform">
             <section class="form_contact">
                 <div>
                     <input type="text" name="nom" placeholder="Nom" value="<?php if (isset($nom)) echo $nom; ?>">
@@ -46,12 +46,13 @@ include 'assets/php/sendmail.php';
         </form>
     </main>
     <?php include 'assets/php/footer.php' ?>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+
     <script>
         function onSubmit(token) {
-            document.getElementById("demo-form").submit();
+            document.getElementById("IDform").submit();
         }
     </script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 
 
