@@ -44,7 +44,7 @@
                     Web<br><br>
                     JavaScript (JQuery), PHP<br><br><br>
                     <a href="#" target="_blank" rel="noopener">victor-nardella.fr/Portfolio</a><br><br>
-                    <a href="https://github.com/Nardel34/Portfolio" target="_blank" rel="noopener">github.com/Portfolio</a>
+                    Non disponible
                 </p>
             </div>
             <div class="line_projet"></div>
