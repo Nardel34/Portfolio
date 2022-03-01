@@ -48,6 +48,11 @@ if (isset($_POST['envoyer'])) {
             if (isset($response['success']) && $response['success'] == true) {
                 mail($destinataire, "Contact Portfolio", $message_mail, $header);
                 $msg = "Votre message a bien été envoyé";
+                $email = null;
+                $nom = null;
+                $prenom = null;
+                $tel = null;
+                $message = null;
             } else {
                 $err = "Le message ne peut pas être envoyé<br>Veuillez contacter l'administrateur";
             }
