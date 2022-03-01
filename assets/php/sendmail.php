@@ -54,7 +54,7 @@ if (isset($_POST['envoyer'])) {
                 $tel = null;
                 $message = null;
             } else {
-                $err = "Le message ne peut pas être envoyé<br>Veuillez contacter l'administrateur";
+                $err = "Veuillez cocher le ReCAPTCHA ou réessayé plus tard";
             }
         } else {
             $err = "L'adresse mail n'est pas valide";
