@@ -43,7 +43,7 @@
                     Projet personnel<br><br>
                     Web<br><br>
                     JavaScript, PHP<br><br><br>
-                    <a href="projects/Le_petit_soliste" target="_blank" rel="noopener">victor-nardella.fr/petit_soliste</a><br><br>
+                    <a href="https://lepetitsoliste.victor-nardella.fr" target="_blank" rel="noopener">Le_petit_soliste</a><br><br>
                     <a href="https://github.com/Nardel34/Le_petit_soliste_Reservation" target="_blank" rel="noopener">github.com/Le_petit_soliste</a>
                 </p>
             </div>
