@@ -44,7 +44,7 @@
                     Web<br><br>
                     JavaScript, PHP<br><br><br>
                     <a href="https://lepetitsoliste.victor-nardella.fr" target="_blank" rel="noopener">Le_petit_soliste</a><br><br>
-                <p>Non disponible</p>
+                    Non disponible
                 </p>
             </div>
             <div class="line_projet"></div>
