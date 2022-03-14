@@ -4,7 +4,7 @@
 <head>
     <title>Victor Nardella - Projets</title>
     <?php include 'assets/php/head.php' ?>
-    <meta name="description" content="Victor Nardella - Développeur web à la recherche d'alternance. Je design et développe des sites web à partir du cahier des charges jusqu'à la mise en ligne.">
+    <meta name="description" content="Victor Nardella - Développeur Fullstack à la recherche d'alternance. Je développe des sites web et logiciels à partir du cahier des charges jusqu'à la mise en ligne ou en service.">
     <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
 </head>
 
