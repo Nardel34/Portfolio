@@ -14,7 +14,7 @@
         <div class="bg_titre_page">
             <h1>Nardella Victor</h1>
             <h2>Bienvenue sur mon Portfolio<br></h2>
-            <span>Gestion d'audits (Concours BEA Informatique)<span>
+            <span>Event Manager<span>
         </div>
     </section>
     <section class="navigation_projets">
