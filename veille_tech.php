@@ -18,6 +18,17 @@
 		</div>
 	</section>
 	<main class="main_veille">
+		<section class="block_def_veille">
+			<div>
+				<h1>La veille technologique</h1>
+				<p>La veille technologique ou veille scientifique et technique consiste à s'informer de façon systématique sur les techniques les plus récentes et surtout sur leur mise à disposition commerciale (ce qui constitue la différence entre la technique et la technologie). Cette activité met en œuvre des techniques d'acquisition, de stockage et d'analyse d'informations et leur distribution automatique aux différentes sections concernées de l'entreprise, à la manière d'une revue de presse. Ces informations peuvent concerner une matière première, un produit, un composant, un procédé, l'état de l'art et l'évolution de l'environnement scientifique, technique, industriel ou commercial de l'entreprise. Elle permet aux bureaux d'études d'être informés des baisses possibles de coût ou d'augmentation de qualité dans le cadre de l'analyse de la valeur.</p>
+			</div>
+			<div>
+				<h1>Technologie facilitant la veille</h1>
+				<p><strong>Google Alerts : </strong>Google Alerts est un outil de surveillance gratuit qui permet de recevoir des alertes à chaque fois qu'un mot-clé prédéfini est mentionné quelque part sur le web.</p>
+				<p><strong>Flux RSS : </strong>Un <strong>flux RSS</strong> est un format de fichier particulier dont le contenu est produit automatiquement (sauf cas exceptionnels) en fonction des mises à jour d'un site web.</p>
+			</div>
+		</section>
 		<div>
 			<img src="assets/img/fbi.jpg" alt="img_fbi">
 			<h1>Messagerie du FBI comprise</h1>
