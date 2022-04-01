@@ -19,7 +19,8 @@
                         <li class="sous_menu_item"><a href="projet_portfolio.php" class="sous_menu_hyperlien">Portfolio (Web)</a></li>
                         <li class="sous_menu_item"><a href="projet_reservation.php" class="sous_menu_hyperlien">Le petit Soliste (Web)</a></li>
                         <li class="sous_menu_item"><a href="projet_bea.php" class="sous_menu_hyperlien">Gestion d'audits (Logiciel)</a></li>
-                        <li class="sous_menu_item"><a href="projet_symphony.php" class="sous_menu_hyperlien">Origami Cloud (Web service)</a></li>
+                        <li class="sous_menu_item"><a href="projet_symphony.php" class="sous_menu_hyperlien">Origami Cloud (App. Web)</a></li>
+                        <li class="sous_menu_item"><a href="projet_ap3.php" class="sous_menu_hyperlien">Event Manager (App. Web)</a></li>
                     </ul>
                 </li>
                 <li><a href="veille_tech.php">Veille techno.</a></li>
@@ -35,8 +36,9 @@
             <div class="liste_sous_menu liste_sous_menu_portfolio">
                 <a href="projet_portfolio.php">Portfolio (Web)</a>
                 <a href="projet_reservation.php">Le petit Soliste (Web)</a>
-                <a href="projet_bea.php">Concours BEA (logiciel)</a>
-                <a href="projet_symphony.php">Origami Cloud (Web service)</a>
+                <a href="projet_bea.php">Concours BEA (Logiciel)</a>
+                <a href="projet_symphony.php">Origami Cloud (App. Web)</a>
+                <a href="projet_ap3.php">Event Manager (App. Web)</a>
             </div>
             <div class="nav_seperate_line"></div>
             <a href="page_CV.php">CV</a>

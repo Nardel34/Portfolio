@@ -22,6 +22,7 @@
         <a href="projet_reservation.php" class="projet_selectionnee">Le petit soliste</a>
         <a href="projet_bea.php">Gestion d'Audit</a>
         <a href="projet_symphony.php">Origami Cloud</a>
+        <a href="projet_ap3.php">Event Manager</a>
     </section>
     <main class="main_projet">
         <img src="assets/img/le_petit_soliste_img.jpg" alt="petit_soliste_img">

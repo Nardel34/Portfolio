@@ -1,7 +1,8 @@
     .navigation_projets {
-        width: 800px;
+        width: 60%;
         margin: 75px auto;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         border: 10px solid #9C9C9C;
     }

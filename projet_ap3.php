@@ -20,15 +20,15 @@
     <section class="navigation_projets">
         <a href="projet_portfolio.php">Portfolio</a>
         <a href="projet_reservation.php">Le petit soliste</a>
-        <a href="projet_bea.php" class="projet_selectionnee">Gestion d'audits</a>
+        <a href="projet_bea.php">Gestion d'audits</a>
         <a href="projet_symphony.php">Origami Cloud</a>
-        <a href="projet_ap3.php">Event Manager</a>
+        <a href="projet_ap3.php" class="projet_selectionnee">Event Manager</a>
     </section>
     <main class="main_projet">
-        <img src="assets/img/concours.jpg" alt="concours">
+        <img src="assets/img/ap3.jpg" alt="concours">
         <div>
-            <h1>Concours BEA Informatique</h1>
-            <h2>Gestion d'audits et mise en page avec Adobe Illustrator</h2>
+            <h1>Event Manager</h1>
+            <h2>Gestionnaire d'évènements</h2>
             <div class="line_projet"></div>
             <div class="description_projet">
                 <p>
@@ -40,12 +40,12 @@
                     <strong>GitHub</strong>
                 </p>
                 <p>
-                    2021<br><br>
-                    Concours<br><br>
-                    Logiciel<br><br>
-                    C#, Librairy de lecture Json<br><br><br>
-                    Non disponible<br><br>
-                    <a href="https://github.com/Nardel34/Gestion_Audits" target="_blank" rel="noopener">github.com/Gestion_Audits</a>
+                    2022<br><br>
+                    Projet personnel<br><br>
+                    Web<br><br>
+                    Symfony, Jquery, Ajax<br><br><br>
+                    <a href="https://eventmanager.victor-nardella.fr" target="_blank" rel="noopener">Event_Manager</a><br><br>
+                    <a href="https://github.com/Nardel34/ap3" target="_blank" rel="noopener">github.com/event_manager</a>
                 </p>
             </div>
             <div class="line_projet"></div>
