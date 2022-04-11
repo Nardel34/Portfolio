@@ -79,3 +79,9 @@
 .block_def_veille>div:last-child>p {
     margin: 15px 0;
 }
+
+@media(max-width: 980px) {
+    .block_def_veille {
+        width: 100%;
+    }
+}
