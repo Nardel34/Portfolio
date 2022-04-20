@@ -85,3 +85,12 @@
         width: 100%;
     }
 }
+
+@media(max-width: 400px) {
+    .block_def_veille {
+        padding: 0 20px 40px 20px !important;
+    }
+    .block_def_veille>div>h1 {
+        margin: 50px 0 15px 0;
+    }
+}

@@ -1,8 +1,8 @@
 <?php
-
-use ReCaptcha\ReCaptcha;
-
 require('vendor/autoload.php');
+
+use \ReCaptcha\ReCaptcha;
+
 
 if (isset($_POST['envoyer'])) {
 
@@ -28,7 +28,7 @@ if (isset($_POST['envoyer'])) {
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
             // Doc officiel de google mais renvoie toujours "false"
-            // $recaptcha = new \ReCaptcha\ReCaptcha("6LduKqceAAAAADXqW8uRSyWbuER9c3YDW-X69aIL");
+            // $recaptcha = new ReCaptcha("6LduKqceAAAAADXqW8uRSyWbuER9c3YDW-X69aIL");
             // $response = $recaptcha->setExpectedHostname('recaptcha-demo.appspot.com')->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
 
             $post = [
@@ -41,10 +41,10 @@ if (isset($_POST['envoyer'])) {
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 
-            $response = curl_exec($ch);
+            $output = curl_exec($ch);
             curl_close($ch);
 
-            $response = json_decode($response, true);
+            $response = json_decode($output, true);
             if (isset($response['success']) && $response['success'] == true) {
                 mail($destinataire, "Contact Portfolio", $message_mail, $header);
                 $msg = "Votre message a bien été envoyé";
