@@ -30,6 +30,27 @@
 			</div>
 		</section>
 		<div>
+			<img src="assets/img/ordinateur.jpg" alt="ordinateur">
+			<h1>Vade lève 28 millions d'euros...</h1>
+			<div class="line_veille"></div>
+			<a target="_blank" rel="noopener" href="https://www.usine-digitale.fr/article/vade-leve-28-millions-d-euros-pour-sa-solution-de-securisation-des-e-mails.N2010517">Voir l'article</a>
+			<p>21 Février 2022</p>
+		</div>
+		<div>
+			<img src="assets/img/contrat.jpg" alt="contrat">
+			<h1>Une assurance cyber est-elle utile ?</h1>
+			<div class="line_veille"></div>
+			<a target="_blank" rel="noopener" href="https://www.usine-digitale.fr/article/l-assurance-cyber-est-elle-utile-ou-appelee-a-disparaitre.N1786537">Voir l'article</a>
+			<p>21 Février 2022</p>
+		</div>
+		<div>
+			<img src="assets/img/clavier.jpg" alt="clavier">
+			<h1>Démantèlement du gang REvil</h1>
+			<div class="line_veille"></div>
+			<a target="_blank" rel="noopener" href="https://www.usine-digitale.fr/article/la-russie-annonce-le-demantelement-du-gang-de-rancongiciel-revil.N1773897">Voir l'article</a>
+			<p>30 Septembre 2021</p>
+		</div>
+		<div>
 			<img src="assets/img/fbi.jpg" alt="img_fbi">
 			<h1>Messagerie du FBI comprise</h1>
 			<div class="line_veille"></div>
@@ -49,13 +70,6 @@
 			<div class="line_veille"></div>
 			<a target="_blank" rel="noopener" href="https://www.lemonde.fr/pixels/article/2021/10/06/la-plate-forme-twitch-victime-d-un-piratage_6097376_4408996.html">Voir l'article</a>
 			<p>6 Octobre 2021</p>
-		</div>
-		<div>
-			<img src="assets/img/apple_pay_veille.jpg" alt="img_apple_pay_veille">
-			<h1>Une faille dans Apple Pay et Visa</h1>
-			<div class="line_veille"></div>
-			<a target="_blank" rel="noopener" href="https://www.futura-sciences.com/tech/actualites/cybersecurite-faille-apple-pay-visa-permet-pirates-effectuer-paiements-contact-93906/">Voir l'article</a>
-			<p>30 Septembre 2021</p>
 		</div>
 		<div>
 			<img src="assets/img/earth_veille.jpg" alt="img_earth_veille">

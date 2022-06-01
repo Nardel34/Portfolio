@@ -1,8 +1,7 @@
 <?php
-require('vendor/autoload.php');
+// require('vendor/autoload.php');
 
-use \ReCaptcha\ReCaptcha;
-
+// use \ReCaptcha\ReCaptcha;
 
 if (isset($_POST['envoyer'])) {
 
