@@ -34,7 +34,7 @@
 			<h1>Vade lève 28 millions d'euros...</h1>
 			<div class="line_veille"></div>
 			<a target="_blank" rel="noopener" href="https://www.usine-digitale.fr/article/vade-leve-28-millions-d-euros-pour-sa-solution-de-securisation-des-e-mails.N2010517">Voir l'article</a>
-			<p>21 Février 2022</p>
+			<p>31 Main 2022</p>
 		</div>
 		<div>
 			<img src="assets/img/contrat.jpg" alt="contrat">
@@ -48,7 +48,7 @@
 			<h1>Démantèlement du gang REvil</h1>
 			<div class="line_veille"></div>
 			<a target="_blank" rel="noopener" href="https://www.usine-digitale.fr/article/la-russie-annonce-le-demantelement-du-gang-de-rancongiciel-revil.N1773897">Voir l'article</a>
-			<p>30 Septembre 2021</p>
+			<p>14 Janvier 2022</p>
 		</div>
 		<div>
 			<img src="assets/img/fbi.jpg" alt="img_fbi">
