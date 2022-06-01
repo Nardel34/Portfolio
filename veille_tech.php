@@ -58,13 +58,6 @@
 			<p>13 Novembre 2021</p>
 		</div>
 		<div>
-			<img src="assets/img/ANSSI_veille.jpeg" alt="img_ANSSI_veille">
-			<h1>Ce que l'ANSSI veut changer</h1>
-			<div class="line_veille"></div>
-			<a target="_blank" rel="noopener" href="https://www.silicon.fr/secnumcloud-anssi-changer-418734.html">Voir l'article</a>
-			<p>18 Octobre 2021</p>
-		</div>
-		<div>
 			<img src="assets/img/twitch_piratage.jpg" alt="img_twitch_piratage">
 			<h1>Plate-forme Twitch victime d'un piratage</h1>
 			<div class="line_veille"></div>
