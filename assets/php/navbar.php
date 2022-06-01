@@ -21,6 +21,7 @@
                         <li class="sous_menu_item"><a href="projet_bea.php" class="sous_menu_hyperlien">Gestion d'audits (Logiciel)</a></li>
                         <li class="sous_menu_item"><a href="projet_symphony.php" class="sous_menu_hyperlien">Origami Cloud (App. Web)</a></li>
                         <li class="sous_menu_item"><a href="projet_ap3.php" class="sous_menu_hyperlien">Event Manager (App. Web)</a></li>
+                        <li class="sous_menu_item"><a href="projet_androidStu.php" class="sous_menu_hyperlien">EM Mobile (App. Android)</a></li>
                     </ul>
                 </li>
                 <li><a href="veille_tech.php">Veille techno.</a></li>
@@ -39,6 +40,7 @@
                 <a href="projet_bea.php">Concours BEA (Logiciel)</a>
                 <a href="projet_symphony.php">Origami Cloud (App. Web)</a>
                 <a href="projet_ap3.php">Event Manager (App. Web)</a>
+                <a href="projet_ap3.php">EM Mobile (App. Android)</a>
             </div>
             <div class="nav_seperate_line"></div>
             <a href="page_CV.php">CV</a>

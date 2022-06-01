@@ -1,108 +1,120 @@
+.navigation_projets {
+    width: 70%;
+    margin: 75px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 10px solid #9C9C9C;
+}
+
+.navigation_projets a {
+    padding: 15px 20px;
+    margin: 10px 2px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navigation_projets a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    margin-top: 5px;
+    background-color: black;
+    transition-duration: 0.5s;
+    width: 0;
+}
+
+.navigation_projets a:hover::after {
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+.projet_selectionnee::after {
+    width: 100% !important;
+}
+
+@media (max-width: 768px) {
     .navigation_projets {
-        width: 60%;
-        margin: 75px auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        border: 10px solid #9C9C9C;
+        flex-direction: column;
+        width: 80%;
     }
-    
     .navigation_projets a {
-        padding: 15px 20px;
-        margin: 10px 2px;
-        color: black;
-        font-weight: bold;
-        text-transform: uppercase;
+        width: 224px;
     }
-    
-    .navigation_projets a::after {
-        content: '';
-        display: block;
-        height: 2px;
-        margin-top: 5px;
-        background-color: black;
-        transition-duration: 0.5s;
-        width: 0;
+}
+
+
+/* ----------------- Main projet -------------------- */
+
+.main_projet {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 20px auto 100px auto;
+}
+
+.main_projet h2 {
+    font-size: 1.2em;
+}
+
+.main_projet img {
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 0 10px #7A7A7A;
+}
+
+.main_projet>div {
+    margin-right: 100px;
+    width: 450px;
+}
+
+.description_projet {
+    display: flex;
+}
+
+.description_projet>p:last-child {
+    margin-left: 30px;
+}
+
+.line_projet {
+    height: 1px;
+    background-color: grey;
+    width: 400px;
+    margin: 20px 0;
+}
+
+.description_projet a {
+    color: blue;
+}
+
+.description_projet a:hover {
+    text-decoration: underline 1px solid blue;
+}
+
+.img_mobile {
+    width: 300px !important;
+}
+
+@media (max-width: 1450px) {
+    .main_projet {
+        flex-direction: column;
+        width: 90%;
     }
-    
-    .navigation_projets a:hover::after {
+    .main_projet img {
         width: 100%;
-        transition-duration: 0.5s;
     }
-    
-    .projet_selectionnee::after {
+    .main_projet>div {
+        margin: 50px 0 0 0;
+        width: 100%;
+    }
+    .line_projet {
+        width: 300px;
+    }
+}
+
+@media (max-width: 450px) {
+    .img_mobile {
         width: 100% !important;
     }
-    
-    @media (max-width: 768px) {
-        .navigation_projets {
-            flex-direction: column;
-            width: 80%;
-        }
-        .navigation_projets a {
-            width: 224px;
-        }
-    }
-    /* ----------------- Main projet -------------------- */
-    
-    .main_projet {
-        display: flex;
-        justify-content: space-around;
-        width: 80%;
-        margin: 20px auto 100px auto;
-    }
-    
-    .main_projet h2 {
-        font-size: 1.2em;
-    }
-    
-    .main_projet img {
-        width: 50%;
-        height: 100%;
-        box-shadow: 0 0 10px #7A7A7A;
-    }
-    
-    .main_projet>div {
-        margin-right: 100px;
-        width: 450px;
-    }
-    
-    .description_projet {
-        display: flex;
-    }
-    
-    .description_projet>p:last-child {
-        margin-left: 30px;
-    }
-    
-    .line_projet {
-        height: 1px;
-        background-color: grey;
-        width: 400px;
-        margin: 20px 0;
-    }
-    
-    .description_projet a {
-        color: blue;
-    }
-    
-    .description_projet a:hover {
-        text-decoration: underline 1px solid blue;
-    }
-    
-    @media (max-width: 1450px) {
-        .main_projet {
-            flex-direction: column;
-            width: 90%;
-        }
-        .main_projet img {
-            width: 100%;
-        }
-        .main_projet>div {
-            margin: 50px 0 0 0;
-            width: 100%;
-        }
-        .line_projet {
-            width: 300px;
-        }
-    }
+}

@@ -23,6 +23,7 @@
         <a href="projet_bea.php">Gestion d'Audit</a>
         <a href="projet_symphony.php" class="projet_selectionnee">Origami Cloud</a>
         <a href="projet_ap3.php">Event Manager</a>
+        <a href="projet_androidStu.php">EM Mobile</a>
     </section>
     <main class="main_projet">
         <img src="assets/img/origamicloud.jpg" alt="work_on_progress">

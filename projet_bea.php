@@ -23,6 +23,7 @@
         <a href="projet_bea.php" class="projet_selectionnee">Gestion d'audits</a>
         <a href="projet_symphony.php">Origami Cloud</a>
         <a href="projet_ap3.php">Event Manager</a>
+        <a href="projet_androidStu.php">EM Mobile</a>
     </section>
     <main class="main_projet">
         <img src="assets/img/concours.jpg" alt="concours">

@@ -14,22 +14,22 @@
         <div class="bg_titre_page">
             <h1>Nardella Victor</h1>
             <h2>Bienvenue sur mon Portfolio<br></h2>
-            <span>Portfolio<span>
+            <span>EM Mobile<span>
         </div>
     </section>
     <section class="navigation_projets">
-        <a href="portfolio_projet.php" class="projet_selectionnee">Portfolio</a>
+        <a href="projet_portfolio.php">Portfolio</a>
         <a href="projet_reservation.php">Le petit soliste</a>
-        <a href="projet_bea.php">Gestion d'Audit</a>
+        <a href="projet_bea.php">Gestion d'audits</a>
         <a href="projet_symphony.php">Origami Cloud</a>
         <a href="projet_ap3.php">Event Manager</a>
-        <a href="projet_androidStu.php">EM Mobile</a>
+        <a href="projet_androidStu.php" class="projet_selectionnee">EM Mobile</a>
     </section>
     <main class="main_projet">
-        <img src="assets/img/portfolio_img.jpg" alt="portfolio_img">
+        <img src="assets/img/mobile.jpg" class="img_mobile" alt="mobile">
         <div>
-            <h1>PORTFOLIO</h1>
-            <h2>Présentation personnelle</h2>
+            <h1>Event Manager Mobile</h1>
+            <h2>Gestionnaire d'évènements</h2>
             <div class="line_projet"></div>
             <div class="description_projet">
                 <p>
@@ -37,16 +37,16 @@
                     <strong>Client</strong><br><br>
                     <strong>Type</strong><br><br>
                     <strong>Technologies</strong><br><br><br>
-                    <strong>Lien</strong><br><br>
+                    <strong>Télécharger</strong><br><br>
                     <strong>GitHub</strong>
                 </p>
                 <p>
-                    2021 (Actualisation)<br><br>
+                    2022<br><br>
                     Projet personnel<br><br>
-                    Web<br><br>
-                    JavaScript (JQuery), PHP<br><br><br>
-                    <a href="#" target="_blank" rel="noopener">victor-nardella.fr/Portfolio</a><br><br>
-                    Non disponible
+                    Android<br><br>
+                    Java, XML<br><br><br>
+                    Non disponible<br><br>
+                    <a href="https://github.com/Nardel34/Event_manager_mobile" target="_blank" rel="noopener">github.com/emmob</a>
                 </p>
             </div>
             <div class="line_projet"></div>
