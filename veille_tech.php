@@ -34,7 +34,7 @@
 			<h1>Vade lève 28 millions d'euros...</h1>
 			<div class="line_veille"></div>
 			<a target="_blank" rel="noopener" href="https://www.usine-digitale.fr/article/vade-leve-28-millions-d-euros-pour-sa-solution-de-securisation-des-e-mails.N2010517">Voir l'article</a>
-			<p>31 Main 2022</p>
+			<p>31 Mai 2022</p>
 		</div>
 		<div>
 			<img src="assets/img/contrat.jpg" alt="contrat">
