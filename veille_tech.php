@@ -72,20 +72,6 @@
 			<p>18 Juillet 2021</p>
 		</div>
 		<div>
-			<img src="assets/img/cloud_veille.jpg" alt="img_cloud_veille">
-			<h1>Fournisseur officiel<br>de cybermenaces</h1>
-			<div class="line_veille"></div>
-			<a target="_blank" rel="noopener" href="https://www.lemondeinformatique.fr/actualites/lire-le-cloud-fournisseur-officiel-de-cybermenaces-82148.html">Voir l'article</a>
-			<p>3 Mars 2021</p>
-		</div>
-		<div>
-			<img src="assets/img/US_veille.jpg" alt="img_US_veille">
-			<h1>Piratage de<br>SolarWinds</h1>
-			<div class="line_veille"></div>
-			<a target="_blank" rel="noopener" href="https://www.lesnumeriques.com/vie-du-net/piratage-solarwinds-les-etats-unis-parlent-d-un-hack-de-haut-niveau-necessitant-l-aide-d-un-pays-n158577.html">Voir l'article</a>
-			<p>2019-2020</p>
-		</div>
-		<div>
 			<img src="assets/img/tesla_pirate.jpg" alt="img_tesla_pirate">
 			<h1>Tesla Model X piraté par un étudiant</h1>
 			<div class="line_veille"></div>
