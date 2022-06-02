@@ -37,7 +37,7 @@
                     <strong>Client</strong><br><br>
                     <strong>Type</strong><br><br>
                     <strong>Technologies</strong><br><br><br>
-                    <strong>Télécharger</strong><br><br>
+                    <strong>Lien</strong><br><br>
                     <strong>GitHub</strong>
                 </p>
                 <p>
