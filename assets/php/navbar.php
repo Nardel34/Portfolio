@@ -40,7 +40,7 @@
                 <a href="projet_bea.php">Concours BEA (Logiciel)</a>
                 <a href="projet_symphony.php">Origami Cloud (App. Web)</a>
                 <a href="projet_ap3.php">Event Manager (App. Web)</a>
-                <a href="projet_ap3.php">EM Mobile (App. Android)</a>
+                <a href="projet_androidStu.php">EM Mobile (App. Android)</a>
             </div>
             <div class="nav_seperate_line"></div>
             <a href="page_CV.php">CV</a>
