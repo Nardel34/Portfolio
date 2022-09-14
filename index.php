@@ -43,7 +43,8 @@
 			<div class="mon_cursus">
 				<h1>Mon Cursus</h1>
 				<h2>Dîplomes :</h2><br>
-				<p>2022 : Préparation d'un BTS SIO, Spécialisation SLAM</p><br>
+				<p>2022 : Préparation d'une Licence informatique, Spécialisation Data Scientist</p><br>
+				<p>2022 : BTS SIO, Spécialisation SLAM</p><br>
 				<p>2020 : Baccalauréat STI2D, Spécialisation SIN</p><br>
 				<p>2016 : Dîplome de premiers secours PSC1</p><br>
 				<p>2016 : Brevet des collèges DNB</p>
