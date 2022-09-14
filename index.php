@@ -50,8 +50,8 @@
 				<p>2016 : Brevet des collèges DNB</p>
 				<br><br>
 				<h2>Expériences professionnelles :</h2><br>
-				<p>2022 : Développeur / intégrateur web, ASP.NET et Angular CLI au sain de l'entreprise Queoval (En cours)</p><br>
-				<p>2022 : 1 mois en tant que développeur PHP au sain du Cabinet Origami</p><br>
+				<p>2022 : Développeur / intégrateur web, ASP.NET et Angular CLI, Queoval (En cours)</p><br>
+				<p>2022 : 1 mois en tant que développeur PHP, Cabinet Origami</p><br>
 				<p>2020-22 : 8 mois en tant qu'employé polyvalent au Centre de tri du Pays de l’Or</p><br>
 				<p>2019 : 2 mois en tant qu'employé polyvalent de restauration au Burger King de Saint-Aunès</p><br>
 				<p>2019 : 1 mois en tant qu'employé polyvalent au service technique de la Mairie de Saint-Aunès</p>
